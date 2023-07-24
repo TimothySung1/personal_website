@@ -8,7 +8,7 @@ export default function NavBar() {
       <NavIcon text="Home" imgSrc="/images/homeicon.png"/>
       <NavIcon text="Projects" imgSrc="/images/projectsicon.png" href="/projects"/>
       <NavIcon text="About" imgSrc="/images/abouticon.png" href="/about"/>
-      <NavIcon text="Contact" imgSrc="/images/contacticon.png" href="/contact"/>
+      <NavIcon text="Contact" imgSrc="/images/contact.png" href="/contact"/>
     </div>
   );
 }
