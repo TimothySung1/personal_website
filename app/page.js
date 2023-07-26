@@ -20,6 +20,7 @@ function Content() {
           I have a 4.0 GPA with a concentration in Intelligence and Information Internetworks.
           You can find more information about me in the <Link href="/about" className="text-slate-700">About</Link> page, and you can visit
           the <Link href="/projects" className="text-slate-700">Projects</Link> page if you are more interested in my coding projects.
+          Check out the <Link href="/contact" className="text-slate-700">Contact</Link> page for my contact information.
         </p>
       </div>
     </div>

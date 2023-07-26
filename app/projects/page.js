@@ -7,7 +7,7 @@ export default function Projects() {
       <div className="ml-24 my-8 mb-11">
         <p>Here are some of my projects that I have worked/been working on.</p>
       </div>
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-start">
         {
           // display projects with title and image on the left
           // description and link to the right
@@ -20,7 +20,11 @@ export default function Projects() {
           and creates docstrings for every function and method. Users can also use the resulting commented files
           to generate Sphinx documentation using the autodocs extension.
         " url="https://github.com/TimothySung1/OpenAICodeComment"/>
-        <p>Item two</p>
+        <ProjectBox title="Parallel Image Processing" description="
+        This Java program can process images with either single-threading or multi-threading.
+        It uses ImageIO and BufferedImage to read/write files and handle individual pixels, respectively.
+        There are future plans to create a GUI and add more types of image processing.
+        " url="https://github.com/TimothySung1/parallel_image_processing"/>
       </div>
     </>
   );
@@ -31,7 +35,7 @@ function ProjectBox( {title, url, description} ) {
     <div className="grid grid-flow-col-dense grid-cols-3 mx-40 mb-11">
       <div className="mr-11">
         <p>{title}</p>
-        <a href={url} target="_blank">Link</a>
+        <a href={url} target="_blank" className="">Click here for the GitHub repository</a>
       </div>
       <p className="col-span-2 text-center">{description}</p>
     </div>

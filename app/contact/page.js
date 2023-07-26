@@ -1,7 +1,9 @@
+import { Title } from '@/components/pageComponents';
+
 export default function Contact() {
   return (
     <div>
-      Contact
+      <Title title="Contact"/>
     </div>
   );
 }
