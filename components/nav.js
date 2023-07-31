@@ -4,12 +4,12 @@ import Link from 'next/link';
 export default function NavBar() {
   // Top bar with home, projects, about, contact
   return (
-    <div className="flex justify-center bg-slate-900 mx-20 rounded-b-2xl py-3 mb-7">
-      <NavIcon text="Home" imgSrc="/images/homeicon.png"/>
-      <NavIcon text="Projects" imgSrc="/images/projectsicon.png" href="/projects"/>
-      <NavIcon text="About" imgSrc="/images/abouticon.png" href="/about"/>
-      <NavIcon text="Contact" imgSrc="/images/contact.png" href="/contact"/>
-    </div>
+    <header className="flex justify-center border-b-2 border-black/25 px-20 py-3 mb-7">
+      <NavIcon text="Home" imgSrc="/images/blackhome.png"/>
+      <NavIcon text="Projects" imgSrc="/images/blackprojects.png" href="/projects"/>
+      <NavIcon text="About" imgSrc="/images/blackabout.png" href="/about"/>
+      <NavIcon text="Contact" imgSrc="/images/blackcontact.png" href="/contact"/>
+    </header>
   );
 }
 

@@ -1,5 +1,6 @@
 import './globals.css'
 import NavBar from '@/components/nav'
+import Footer from '@/components/footer'
 
 export const metadata = {
   title: 'Timothy Sung\'s Website',
@@ -9,10 +10,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="bg-slate-800">
+      <body className="min-h-screen">
         <NavBar />
         {children}
-        </body>
+        <Footer />
+      </body>
     </html>
   )
 }

@@ -21,9 +21,9 @@ export default function Projects() {
           to generate Sphinx documentation using the autodocs extension.
         " url="https://github.com/TimothySung1/OpenAICodeComment"/>
         <ProjectBox title="Parallel Image Processing" description="
-        This Java program can process images with either single-threading or multi-threading.
+        This JavaFX program can process images with either single-threading or multi-threading, which optimizes
+        the process by delegating threads to separate sections of the image.
         It uses ImageIO and BufferedImage to read/write files and handle individual pixels, respectively.
-        There are future plans to create a GUI and add more types of image processing.
         " url="https://github.com/TimothySung1/parallel_image_processing"/>
       </div>
     </>

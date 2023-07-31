@@ -28,13 +28,22 @@ body {
 }
 */
 
+body {
+  background-color: rgb(240, 240, 240);
+  font-family: theme(fontFamily.body);
+}
+
 p {
-  color: white;
+  color: black;
 }
 
 ul {
-  color: white;
+  color: black;
 }
 a {
   color: skyblue;
+}
+
+footer {
+  background-color: theme(backgroundColor.gray.600 / 25%);
 }
