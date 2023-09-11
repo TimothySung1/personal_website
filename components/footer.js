@@ -7,18 +7,18 @@ export default function Footer() {
         <p className="mr-24">
           Made by Timothy Sung
         </p>
-        <FooterSection src="/images/mail.png" text="Email" />
-        <FooterSection src="/images/github.png" text="GitHub" />
-        <FooterSection src="/images/linkedin.webp" text="LinkedIn" />
+        <FooterSection src="/images/mail.png" text="Email" round = {false} />
+        <FooterSection src="/images/github.png" text="GitHub" round={true}/>
+        <FooterSection src="/images/linkedin.webp" text="LinkedIn" round={false} />
       </div>
     </footer>
   );
 }
 
-function FooterSection({ src="", text}) {
+function FooterSection({ src="", text, round}) {
   return (
     <div className="flex flex-row mx-4 items-center">
-      <Image src={src} alt="Icon" height={30} width={30} />
+      <Image src={src} alt="Icon" height={30} width={30} className={round ? "rounded-lg" : ""} />
       <p className="text-blue-400">
         {text}
       </p>
