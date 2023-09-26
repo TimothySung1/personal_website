@@ -22,10 +22,10 @@ function Education() {
         <Image src="/images/georgia-tech-logo.jpg" alt="GT logo" width={250} height={40}
           className="rounded-lg border-4 border-black mt-4"
         />
-        <div className="flex flex-col ml-14">
+        <div className="flex flex-col ml-64 w-1/2">
           <p className="mb-4">
             I am a 2nd year Computer Science student at Georgia Tech. I am studying Information Internetworks
-            and Intelligence, since I feel those areas are most applicable and interesting. 
+            and Intelligence, since I feel those areas are most industry-applicable and interesting. 
           </p>
           <div className="flex flex-row">
             <GPA />
@@ -43,8 +43,10 @@ function Coursework() {
     <div className="flex flex-col mr-16">
       <p>Relevant Coursework</p>
       <ul className="list-disc">
-        <li>Data Structures and Algorithms</li>
+        <li>Design & Analysis of Algorithms</li>
+        <li>Data Structures & Algorithms</li>
         <li>Object Oriented Design</li>
+        <li>Systems and Networks</li>
         <li>Discrete Mathematics</li>
         <li>Secound Course of Linear Algebra</li>
       </ul>
@@ -64,7 +66,8 @@ function Clubs() {
       <p>Clubs</p>
       <ul className="list-disc">
         <li>Data Science @ GT</li>
-        <li>Yellow Jacket Space Program</li>
+        <li>Web Development</li>
+        <li>Mastering Android Development</li>
       </ul>
     </div>
   );
@@ -77,7 +80,7 @@ function Resume() {
         <p>
           For more information, check out my resume &nbsp;
         </p>
-        <a href="assets/timothy_sung_resume.docx">
+        <a href="assets/resume.docx">
           here
         </a>
       </div>
