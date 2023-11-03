@@ -24,7 +24,7 @@ function Content() {
         </p>
         <p className="mx-60 whitespace-normal text-center w-[700px] mt-24">
           I developed this website as a quick Summer project to familiarize myself with web development. I decided that the best way to learn 
-          the fundamendtals was to jump right in and create a simple personal website. From this process, I learned many things about React,
+          the fundamentals was to jump right in and create a simple personal website. From this process, I learned many things about React,
           Javascript, HTML, CSS, and Next.js. Now, it is time to learn some front-end...
         </p>
       </div>
